@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-// import { Link } from 'react-router-dom';
-//import Dashboard from '../pages/Dashboard'
-
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
 
@@ -19,9 +17,20 @@ class Navbar extends Component {
         return (
             <nav className='navbar bg-primary'>
                 <h1>{this.props.title}</h1>
-                {/* <ul><li>
-                    <Link to='../pages/Dashboard'>Dashboard</Link>
-                </li></ul> */}
+
+                <nav-links>
+                    <ul>
+                        <li>
+                            <Link to='../pages/SignIn'>sign in</Link>
+                        </li>
+                        <li>
+                            <Link to='../pages/Register'>register</Link>
+                        </li>
+                        <li>
+                            <Link to='../pages/About'>about</Link>
+                        </li>
+                    </ul>
+                </nav-links>
             </nav>
         )
     }
