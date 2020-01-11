@@ -336,6 +336,14 @@ button.hover {
   text-align: center;
 }
 
+/* .landing-button {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  background-color: #888;
+} */
+
 /* Student Dashboard Page */
 .student {
   display: grid;
