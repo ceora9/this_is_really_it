@@ -4,6 +4,7 @@ import './App.css';
 import Routes from './routes/Routes';
 import Navbar from './layout/Navbar';
 import Landing from './layout/Landing';
+import About from './pages/About'
 //import SelectEmoji from './pages/SelectEmoji'
 //import Emojis from './pages/Emojis'
 //import Users from './pages/Users'
@@ -16,17 +17,11 @@ const App = () => {
     <Router>
       <Fragment>
         <Navbar />
-        {/* <SelectEmoji /> */}
- 
         <Switch>
-          {/* <Route exact path='/' component={Landing} />
-          <Route component={Routes} /> */}
+          <Route component={Routes} />
+          <Route exact path='/' component={About} />
         </Switch>
-
-        
       </Fragment>
-
-     
     </Router>
 
     // <div className="App">
