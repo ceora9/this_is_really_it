@@ -14,11 +14,10 @@
 }
 
 body {
-  font-family: "Soleil", sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+font-family: soleil,sans-serif;
+font-weight: 300;
+font-style: normal;
+color: black;
 }
 
 a {
@@ -34,6 +33,46 @@ img {
   width: 100%;
 }
 
+/* EMOJI STYLES */
+
+/* Emoji colors */
+.emoji-color-happy {
+  color: #f9df0c;
+}
+
+.emoji-color-calm {
+  color: #4cc6df;
+}
+
+.emoji-color-sad {
+  color: #3861ad;
+}
+
+.emoji-color-angry {
+  color: #ef3a24;
+}
+
+.emoji-color-frustrated {
+  color: #c82679;
+}
+
+.emoji-color-worried {
+  color: #6528c6;
+}
+
+.emoji-color-excited {
+  color: #ea7e29;
+}
+
+.emoji-color-sleepy {
+  color: #808080;
+}
+
+.emoji-color-sick {
+  color: #87c65a;
+}
+
+/* Emoji boxes and containers */
 .emoji-container {
   display: flex;
   flex-direction: column;
@@ -369,7 +408,7 @@ button.hover {
   grid-gap: 1rem;
 }
 
-/* Mobile Styles */
+/* MOBILE STYLES */
 @media (max-width: 700px) {
   .container {
     margin-top: 8rem;
